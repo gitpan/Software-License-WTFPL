@@ -3,7 +3,7 @@ use warnings;
 
 package Software::License::WTFPL_2;
 BEGIN {
-  $Software::License::WTFPL_2::VERSION = '0.01';
+  $Software::License::WTFPL_2::VERSION = '0.02';
 }
 # ABSTRACT: The Do What The Fuck You Want To Public License, Version 2
 
@@ -26,7 +26,7 @@ Software::License::WTFPL_2 - The Do What The Fuck You Want To Public License, Ve
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -42,6 +42,8 @@ check that the additional restrictions do not impair fundamental
 freedoms. The WTFPL renders this task trivial: it allows everything
 and has no additional restrictions. How could life be easier? You just
 DO WHAT THE FUCK YOU WANT TO.
+
+=encoding utf8
 
 =head1 FAQ
 

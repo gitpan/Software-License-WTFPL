@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
                        'BUILD_REQUIRES' => {},
                        'ABSTRACT' => 'The Do What The Fuck You Want To Public License, Version 2',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.01',
+                       'VERSION' => '0.02',
                        'PREREQ_PM' => {
                                         'Software::License' => '0'
                                       },

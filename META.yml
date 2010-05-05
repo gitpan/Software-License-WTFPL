@@ -16,4 +16,4 @@ requires:
   Software::License: 0
 resources:
   repository: git://github.com/rafl/software-license-wtfpl.git
-version: 0.01
+version: 0.02
