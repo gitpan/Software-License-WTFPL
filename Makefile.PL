@@ -18,10 +18,12 @@ my %WriteMakefileArgs = (
                                                  'ExtUtils::MakeMaker' => '6.31'
                                                },
                        'AUTHOR' => 'Florian Ragwitz <rafl@debian.org>',
-                       'BUILD_REQUIRES' => {},
+                       'BUILD_REQUIRES' => {
+                                             'Test::More' => '0.89'
+                                           },
                        'ABSTRACT' => 'The Do What The Fuck You Want To Public License, Version 2',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.02',
+                       'VERSION' => '0.03',
                        'PREREQ_PM' => {
                                         'Software::License' => '0'
                                       },
